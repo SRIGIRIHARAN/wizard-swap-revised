@@ -1,0 +1,183 @@
+
+
+.home{
+    /* border: 1px solid red; */
+    width: calc(100% - 260px);
+    height: 100%;
+    /* margin-top: 70px; */
+    position: relative;
+    background: #1A1B23;
+    top: 70px;
+    left: 260px;  
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 18px;
+}
+
+.home h3{
+    padding-bottom: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.home p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.home-body{
+    border-top-left-radius: 25.83px;
+    border-top-right-radius: 25.83px;
+    background: #23242F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 30px;
+}
+
+.syrup-form{
+    /* width: 490px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px 0;
+}
+
+.syrup-card{
+    width: 100%;
+    min-height: 250px;
+    height: 100%;
+    border-radius: 20px;
+    background: #2C2D3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.syrup-card h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+
+.syrup-card .syrup-split .split-line{
+    border-left: 2px solid #6A6B7F;
+    height: 150px;
+}
+
+.syrup-split .stake h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.syrup-split .stake .btn.btn-light{
+    width: 100%;
+    height: 3rem;
+    border-radius: 22px;
+    background: #6943AE;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.syrup-split .stake .btn.btn-dark{
+    width: 100%;
+    height: 3rem;
+    border-radius: 22px;
+    background: #00D4C7;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.syrup-form .btn.btn-primary{
+    width: 60%;
+    height: 3rem;
+    border-radius: 22px;
+    background: #2E3A5B;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.earn p{
+    height: 4rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background: #2C2D3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-card {
+    /* width: 542px; */
+    height: 200px;
+    border-radius: 20px;
+    background: #2C2D3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.value-card h3{
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.value-card h3 span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.value-card h4{
+    font-weight: 600;
+    font-size: 32px;
+    color: #B794F6;
+}
+
+.value-card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .home{
+        width: 100%;
+        left: 0;
+    }
+}

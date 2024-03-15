@@ -1,0 +1,23 @@
+body {
+  font-family: Poppins;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+}
+p, a, span, button, input, .form-control {
+  font-family: Poppins;
+}
+
+.sec-even{
+  padding: 50px 50px 0;
+}
+
+.margin-b-50{
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px){
+  .syrup-card h2{
+    font-size: 20px;
+  }
+}
